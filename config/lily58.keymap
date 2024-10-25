@@ -8,18 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/keys.h>
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        td0: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
-        };
-
     macros {
         Undo: Undo {
             compatible = "zmk,behavior-macro";
@@ -76,7 +66,7 @@
                              &trans   &trans   &trans   &trans    &trans  &trans  &trans           &trans
             >;
 
-            label = "F_Num";
+            label = "Num";
         };
 
         Sym_Nav_Layer {

@@ -52,7 +52,7 @@
         Sym_Nav_Layer {
             bindings = <
 &kp BACKSPACE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6    &kp F7           &kp F8        &kp F9         &kp F10    &kp DEL
-&kp DELETE     &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS   &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &trans
+&kp DELETE     &kp GRAVE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS   &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &trans
 &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME  &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &trans
 &trans         &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END   &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &trans
                                                     &trans                &trans                 &trans     &tog 2       &mo 2      &trans    &trans           &trans

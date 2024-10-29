@@ -43,7 +43,7 @@
 &kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                               &kp Y      &kp U              &kp I      &kp O    &kp P     &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G                               &kp H      &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C     &kp V     &kp B      &kp LBKT    &kp RBKT     &kp N      &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT RETURN
-                                  &kp LALT  &kp LGUI  &kp SPACE  &mo 1       &lt 1 ENTER  &kp SPACE  &kp RIGHT_CONTROL  &mo 4
+                                  &kp LALT  &kp LGUI  &kp SPACE  &mo 1       &lt 3 ENTER  &kp SPACE  &kp RIGHT_CONTROL  &mo 4
             >;
 
             label = "Alphas";
@@ -55,7 +55,7 @@
 &kp DELETE     &kp GRAVE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS    &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
 &kp LCTRL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &kp APOS
 &kp LSHFT      &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp ENTER
-                                                    &kp LALT              &kp LGUI               &kp SPACE  &mo 3        &mo 3      &kp SPACE  &kp RCTRL        &mo 4
+                                                    &kp LALT              &kp LGUI               &kp SPACE  &none        &none      &kp SPACE  &kp RCTRL        &mo 4
             >;
 
             label = "Sym_Nav";
@@ -96,11 +96,11 @@
         macro_layer {
             display-name = "Macro";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                   &none  &none  &none  &none  &none  &none
-&bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                          &none  &none  &none  &none  &none  &none
-&none           &none         &none         &none         &none         &none                          &none  &none  &none  &none  &none  &none
-&none           &none         &none         &none         &none         &none         &none    &none   &none  &none  &none  &none  &none  &none
-                                            &none         &none         &none         &to 2    &tog 2  &none  &none  &none
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none  &none  &none  &none  &none
+&bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                           &none  &none  &none  &none  &none  &none
+&none           &none         &none         &none         &none         &none                           &none  &none  &none  &none  &none  &none
+&none           &none         &none         &none         &none         &none         &none     &none   &none  &none  &none  &none  &none  &none
+                                            &none         &none         &none         &tog 2    &tog 2  &none  &none  &none
             >;
 
             label = "Macro";

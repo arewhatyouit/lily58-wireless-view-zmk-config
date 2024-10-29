@@ -87,7 +87,7 @@
 &kp TAB    &kp F11  &kp F12  &kp F13   &kp F14   &kp F15                          &kp F16    &kp F17          &kp F18        &kp F19           &kp F20    &kp BSLH
 &kp LCTRL  &kp N1   &kp N2   &kp N3    &kp N4    &kp N5                           &kp N6     &kp N7           &kp N8         &kp N9            &kp N0     &kp RIGHT_SHIFT
 &kp LSHFT  &none    &none    &none     &none     &none      &kp LBKT    &kp RBKT  &kp END    &kp PRINTSCREEN  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp ENTER
-                             &kp LALT  &kp LGUI  &kp SPACE  &to 2       &mo 2     &kp SPACE  &kp RCTRL        &mo 4
+                             &kp LALT  &kp LGUI  &kp SPACE  &none       &none     &kp SPACE  &kp RCTRL        &mo 4
             >;
 
             label = "NumRow";

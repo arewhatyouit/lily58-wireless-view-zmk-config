@@ -35,11 +35,11 @@
 
         Sym_Nav_Layer {
             bindings = <
-&kp BACKSPACE  &kp F1             &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6     &kp F7           &kp F8        &kp F9         &kp F10    &kp DEL
-&kp GRAVE      &kp DOUBLE_QUOTES  &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS    &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
-&kp LCTRL      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &kp APOS
-&kp LSHFT      &kp CARET          &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp ENTER
-                                                     &kp LALT              &kp LGUI               &kp SPACE  &kp ENTER    &tog 3     &kp SPACE  &kp RCTRL        &mo 4
+&kp BACKSPACE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6     &kp F7           &kp F8        &kp F9         &kp F10    &kp DEL
+&kp TAB        &kp GRAVE         &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS    &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
+&kp LCTRL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp COLON  &kp APOS
+&kp LSHFT      &kp QUESTION      &kp ASTRK          &kp AMPS              &kp PIPE               &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp ENTER
+                                                    &kp LALT              &kp LGUI               &kp SPACE  &kp ENTER    &kp ENTER  &kp SPACE  &kp RCTRL        &mo 4
             >;
 
             label = "Sym_Nav";
@@ -47,11 +47,11 @@
 
         NumRow {
             bindings = <
-&kp ESC    &kp F1    &kp F2       &kp F3    &kp F4      &kp F5                              &kp F6     &kp F7           &kp F8        &kp F9                &kp F10                &kp DELETE
-&kp TAB    &kp N1    &kp N2       &kp N3    &kp N4      &kp N5                              &kp N6     &kp N7           &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp LCTRL  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                         &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT
-&kp LSHFT  &none     &none        &none     &none       &kp HOME     &kp LBKT    &kp RBKT   &kp END    &kp PRINTSCREEN  &kp COMMA     &kp PERIOD            &kp SLASH              &kp ENTER
-                                  &kp LALT  &kp LGUI    &kp SPACE    &tog 3      &kp ENTER  &kp SPACE  &kp RCTRL        &mo 4
+&kp ESC    &kp F1    &kp F2       &kp F3    &kp F4      &kp F5                               &kp F6     &kp F7           &kp F8        &kp F9      &kp DEL    &kp BACKSPACE
+&kp TAB    &kp N1    &kp N2       &kp N3    &kp N4      &kp N5                               &kp N6     &kp N7           &kp N8        &kp N9      &kp N0     &kp MINUS
+&kp LCTRL  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                          &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp SEMI    &kp COLON  &kp RIGHT_SHIFT
+&kp LSHFT  &none     &none        &none     &none       &kp HOME     &kp LBKT     &kp RBKT   &kp END    &kp PRINTSCREEN  &kp COMMA     &kp PERIOD  &kp SLASH  &kp ENTER
+                                  &kp LALT  &kp LGUI    &kp SPACE    &kp ENTER    &kp ENTER  &kp SPACE  &kp RCTRL        &mo 4
             >;
 
             label = "NumRow";
